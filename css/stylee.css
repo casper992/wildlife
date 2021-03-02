@@ -86,7 +86,7 @@ body{
     transition: .7s;
 }
 
-.header__button:visited{
+.header__button:active{
     background-color: #8F5613;
 }
 
@@ -94,7 +94,7 @@ body{
 .survival {
     width: 100%;
     height: 780px;
-    background-image: url(../image/fullbackground/1.png);
+    background-image: url(../assets/fullbackground/1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -149,7 +149,7 @@ body{
     transition: .7s;
 }
 
-.survival__button:visited{
+.survival__button:active{
     background-color: #8F5613;
 }
 
@@ -296,7 +296,7 @@ article img{
 #switch1:checked ~ #controls label:nth-child(3), 
 #switch2:checked ~ #controls label:nth-child(1),
 #switch3:checked ~ #controls label:nth-child(2){
-    background: url(../image/Vector.svg) no-repeat; 
+    background: url(../assets/Vector.svg) no-repeat; 
     display: block;
     height: 39px;
     width: 26px;
@@ -308,7 +308,7 @@ article img{
 #switch1:checked ~ #controls label:nth-child(2), 
 #switch2:checked ~ #controls label:nth-child(3),
 #switch5:checked ~ #controls label:nth-child(1){
-    background: url(../image/Vectorb.svg) no-repeat; 
+    background: url(../assets/Vectorb.svg) no-repeat; 
     display: block;
     height: 39px;
     width: 26px;
@@ -415,7 +415,7 @@ label, a{
 
 footer{
     widows: 100%;
-    background-image: url(../image/footer/1.jpg);
+    background-image: url(../assets/footer/1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 360px;
@@ -493,18 +493,18 @@ footer{
 }
 
 .container__footer-massenger li:nth-child(1){
-    background-image: url(../image/footer/icon/1.svg);
+    background-image: url(../assets/footer/icon/1.svg);
     
 }
 
 .container__footer-massenger li:nth-child(2){
-    background-image: url(../image/footer/icon/2.svg);
+    background-image: url(../assets/footer/icon/2.svg);
 }
 
 .container__footer-massenger li:nth-child(3){
-    background-image: url(../image/footer/icon/3.svg);
+    background-image: url(../assets/footer/icon/3.svg);
 }
 
 .container__footer-massenger li:nth-child(4){
-    background-image: url(../image/footer/icon/4.svg);
+    background-image: url(../assets/footer/icon/4.svg);
 }
